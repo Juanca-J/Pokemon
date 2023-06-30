@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.headerFormat{
+    background: black;
+    text-align: center;
+    text-align: center;
+}
+
+
+#formSearch{
+    font-style: bold;
+    color: white;
+}
+
+.formatButton{
+    background: black;
+    border: none;
+}
+.formatButton:hover{
+    background: rgb(114, 113, 113);
+    border-radius: 5px;
+}
+
+.formHead{
+    margin: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.formDivB{
+    margin: 5px;
+    padding: 10px;
+}
+.formB{
+    background: black;
+    border: none;
+}
+.formB:hover{
+    background: rgb(114, 113, 113);
+    border-radius: 5px;
+}
+
+
+/* fin header  */
+
+
+/* container content  */
+
+
+.formContainerSec{
+    max-width: 1000px;
+    margin: 12px auto;
+    text-align: center;
+}
+
+.pokemonInvoke{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+/* fin container content  */
+
+
+/* javascript card y div  */
+
+.formatImgPok{
+    width: 200px;
+    height: 200px;
+    margin: 6px;
+    transition: 1s;
+}
+
+.formatImgPok:hover{
+    transform: scale(1.2);
+}
+
+.cardFormat{
+    display: inline-flex;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formatName{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+/* fin JS  */
